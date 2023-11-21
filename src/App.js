@@ -1,6 +1,7 @@
 
 import Navbar from './Navbar'
 import Home from './Home'
+import About from './About'
 
 
 function MyComponent() {
@@ -9,6 +10,7 @@ function MyComponent() {
       <Navbar />
       <div className="content">
         <Home />
+        <About />
       </div>
     </div>
   );

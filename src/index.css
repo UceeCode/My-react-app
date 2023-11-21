@@ -10,7 +10,7 @@
 .navbar{
   height: 11vh;
   width: 100%;
-  background-color: black;
+  background-color: #f23d8a;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,10 +46,14 @@
   font-size: 33px;
   width: 55%;
   text-align: center;
-  padding: 8px;
-  border-radius: 6px;
+  padding: 7px;
+  border-radius: 7px;
   position: relative;
   top: 90px;
   left: 24px;
-  background-color: black;
+  background-color: #f23d8a;
+}
+.about_us{
+  height: 100vh;
+  text-align: center;
 }
