@@ -1,11 +1,15 @@
 const Navbar = () => {
     return ( 
         <nav className="navbar">
-            <h1>The Uche-Blog</h1>
+            <h1>Fashion Store</h1>
             <div className="links">
                 <a href="/">Home</a>
-                <a href="/create">New Blog</a>
                 <a href="/about">About Us</a>
+                <a href="/about">Products</a>
+                <a href="/about">Contact</a>
+            </div>
+            <div className="icon">
+                <i class="fa-solid fa-cart-shopping"></i>
             </div>
         </nav>
      );
