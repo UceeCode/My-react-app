@@ -39,6 +39,10 @@
   margin:  20px 0;
   border-bottom: 1px solid black;
 }
+.blog-preview:hover{
+  border-bottom: 2px solid blue;
+  transition: .5s;
+}
 .blog-preview h2{
   font-size: 20px;
   color: blue;
